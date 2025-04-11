@@ -61,7 +61,7 @@ export default function MyBookingsClient({ bookedSeats }) {
   if (bookedSeats.length === 0) {
     return (
       <div className="text-center py-6">
-        <p className="text-gray-500">You haven't booked any seats yet.</p>
+        <p className="text-gray-500">You haven&apos;t booked any seats yet.</p>
         <a href="/book-ticket" className="text-blue-500 hover:text-blue-700 mt-4 inline-block">
           Go to Booking Page
         </a>
